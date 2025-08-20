@@ -1,0 +1,14 @@
+create database mydb;
+use mydb;
+
+
+create table users(
+id int(3) not null AUTO_INCREMENT,
+username varchar(120) ,
+password varchar(250) ,
+
+PRIMARY KEY(id)
+);
+
+
+select * from users;
